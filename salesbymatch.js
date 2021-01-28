@@ -18,3 +18,7 @@ function sockMerchant(n, ar) {
 console.time("Starting: ");
 console.log(sockMerchant(9, [10, 20, 20, 10, 10, 30, 50, 10, 20]));
 console.timeEnd("Finalizing: ");
+
+console.time("Starting: ");
+console.log(sockMerchant(1, [10]));
+console.timeEnd("Finalizing: ");
